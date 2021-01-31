@@ -15,7 +15,7 @@ public class RestTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", is("false"));
+                .body("data", is("some data"));
     }
 
     @Test
